@@ -154,10 +154,10 @@ return array(
   '%d project hashtag(s) are already used: %s.' => null,
 
   // src/applications/releeph/field/specification/ReleephDiffChurnFieldSpecification.php:63
-  '%d rejection(s)' => null,
+  '%d rejection(s)' => '%d个拒绝',
 
   // src/applications/config/view/PhabricatorSetupIssueView.php:521
-  '%d related link(s):' => null,
+  '%d related link(s):' => '%d个相关链接:',
 
   // src/applications/releeph/field/specification/ReleephDiffChurnFieldSpecification.php:69
   '%d update(s)' => '%d个更新',
@@ -272,7 +272,7 @@ return array(
 
   // src/applications/help/application/PhabricatorHelpApplication.php:60
   // src/applications/help/controller/PhabricatorHelpDocumentationController.php:23
-  '%s Help' => null,
+  '%s Help' => '%s帮助',
 
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:139
   '%s Line(s)' => "%s行",
@@ -281,7 +281,7 @@ return array(
   '%s Not Found' => "%s没有找到",
 
   // src/applications/config/check/PhabricatorPathSetupCheck.php:34
-  '%s Not Set' => null,
+  '%s Not Set' => '%s没有设置',
 
   // src/applications/config/check/PhabricatorPygmentSetupCheck.php:54
   '%s Not Working' => null,
@@ -296,7 +296,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionTagListController.php:91
   // src/applications/diffusion/controller/DiffusionBrowseDirectoryController.php:102
   // src/applications/diffusion/controller/DiffusionBrowseSearchController.php:37
-  '%s Repository' => null,
+  '%s Repository' => '%s仓库',
 
   // src/applications/multimeter/storage/MultimeterEvent.php:50
   '%s Req' => null,
@@ -345,7 +345,7 @@ return array(
   '%s activated %s.' => null,
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:89
-  '%s activated dashboard panel %s.' => '%s 启用了仪表板面板 %s。',
+  '%s activated dashboard panel %s.' => '%s 启用了仪表盘面板 %s。',
 
   // src/applications/releeph/storage/ReleephProductTransaction.php:84
   '%s activated release product %s.' => null,
@@ -430,10 +430,10 @@ return array(
   '%s added %s contributor(s): %s.' => null,
 
   // src/applications/dashboard/edge/PhabricatorDashboardPanelHasDashboardEdgeType.php:64
-  '%s added %s dashboard(s) for %s: %s.' => '%s 添加了 %s 仪表板为 %s: %s。',
+  '%s added %s dashboard(s) for %s: %s.' => '%s 添加了 %s 仪表盘为 %s: %s。',
 
   // src/applications/dashboard/edge/PhabricatorDashboardPanelHasDashboardEdgeType.php:22
-  '%s added %s dashboard(s): %s.' => '%s 添加了 %s 仪表板: %s。',
+  '%s added %s dashboard(s): %s.' => '%s 添加了 %s 仪表盘: %s。',
 
   // src/applications/differential/edge/DifferentialRevisionDependsOnRevisionEdgeType.php:68
   '%s added %s dependencie(s) for %s: %s.' => null,
@@ -703,7 +703,7 @@ return array(
   '%s can take this action.' => null,
 
   // src/applications/calendar/storage/PhabricatorCalendarEventTransaction.php:341
-  '%s cancelled %s.' => null,
+  '%s cancelled %s.' => '%s 取消了 %s.',
 
   // src/applications/calendar/storage/PhabricatorCalendarEventTransaction.php:167
   '%s cancelled this event.' => '%s取消了这个事情.',
@@ -903,7 +903,7 @@ return array(
   '%s class "%s" must define a %s property.' => null,
 
   // src/applications/ponder/storage/PonderQuestionTransaction.php:247
-  '%s closed %s' => null,
+  '%s closed %s' => '%s 关闭了 %s',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:655
   '%s closed %s as "%s" by committing %s.' => null,
@@ -1030,10 +1030,10 @@ return array(
   '%s created %s.' => null,
 
   // src/applications/dashboard/storage/PhabricatorDashboardTransaction.php:60
-  '%s created dashboard %s.' => '%s 创建的仪表板 %s。',
+  '%s created dashboard %s.' => '%s 创建的仪表盘 %s。',
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:70
-  '%s created dashboard panel %s.' => '%s 创建的仪表板面板 %s',
+  '%s created dashboard panel %s.' => '%s 创建的仪表盘面板 %s',
 
   // src/applications/phortune/storage/PhortuneAccountTransaction.php:30
   '%s created this account.' => null,
@@ -3045,7 +3045,7 @@ return array(
   '**Choose a "Callsign" for the repository.** This is a short, unique string which identifies commits elsewhere in Phabricator. For example, you might use `M` for your mobile app repository and `B` for your backend repository.\n\n**Callsigns must be UPPERCASE**, and can not be edited after the repository is created. Generally, you should choose short callsigns.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:379
-  '**Choose a human-readable name for this repository**, like "CompanyName Mobile App" or "CompanyName Backend Server". You can change this later.' 
+  '**Choose a human-readable name for this repository**, like "CompanyName Mobile App" or "CompanyName Backend Server". You can change this later.'
   => '**为该仓库选择一个可读的名字**，比如"CompanyName Mobile App"或者"CompanyName Backend Server"。你也可以过后修改。',
 
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:89
@@ -4400,7 +4400,7 @@ return array(
   'All Daemons' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:34
-  'All Dashboards' => '所有仪表板',
+  'All Dashboards' => '所有仪表盘',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:366
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:420
@@ -6419,7 +6419,7 @@ return array(
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:209
   // src/applications/project/icon/PhabricatorProjectIcon.php:12
-  'Bug' => null,
+  'Bug' => '缺陷',
 
   // src/applications/releeph/controller/request/ReleephRequestActionController.php:68
   'Bug! Only pushers or the requestor can manually change a request\'s in-branch status!' => null,
@@ -6630,7 +6630,7 @@ return array(
   'CCs' => '抄送',
 
   // src/applications/differential/editor/DifferentialTransactionEditor.php:1242
-  'CHANGE DETAILS' => null,
+  'CHANGE DETAILS' => '变更细节',
 
   // src/applications/differential/editor/DifferentialTransactionEditor.php:1204
   'CHANGED PRIOR TO COMMIT' => null,
@@ -6639,10 +6639,10 @@ return array(
   'CHANGES SINCE LAST UPDATE' => null,
 
   // src/applications/diviner/workflow/DivinerGenerateWorkflow.php:85
-  'CLEARING CACHES' => null,
+  'CLEARING CACHES' => '清理缓存',
 
   // src/applications/audit/editor/PhabricatorAuditEditor.php:721
-  'COMMIT' => null,
+  'COMMIT' => '提交',
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:89
   'COMMITS' => null,
@@ -6818,7 +6818,7 @@ return array(
   'Can Edit Task Status' => null,
 
   // src/applications/policy/capability/PhabricatorPolicyCanJoinCapability.php:9
-  'Can Join' => null,
+  'Can Join' => '可加入',
 
   // src/applications/project/capability/ProjectCanLockProjectsCapability.php:9
   'Can Lock Project Membership' => null,
@@ -6839,10 +6839,10 @@ return array(
   'Can Manage Sources' => null,
 
   // src/applications/config/check/PhabricatorDatabaseSetupCheck.php:45
-  'Can Not Connect to MySQL' => null,
+  'Can Not Connect to MySQL' => '不能连接MySQL',
 
   // src/applications/phriction/controller/PhrictionDeleteController.php:53
-  'Can Not Delete Document!' => null,
+  'Can Not Delete Document!' => '不能删除文档!',
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyEditController.php:39
   'Can Not Edit Trusted Key' => null,
@@ -6887,7 +6887,7 @@ return array(
   'Can not move document because the parent document with slug %s does not exist!' => null,
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:555
-  'Can not move document.' => null,
+  'Can not move document.' => '不能移动文档.',
 
   // src/applications/calendar/storage/PhabricatorCalendarEvent.php:163
   'Can not save event with viewer timezone still applied!' => null,
@@ -6921,7 +6921,7 @@ return array(
   // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:114
   // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:118
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:221
-  'Cancel Event' => null,
+  'Cancel Event' => '取消事件',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:102
   // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:106
@@ -6929,7 +6929,7 @@ return array(
 
   // src/applications/phortune/controller/PhortuneCartViewController.php:280
   // src/applications/phortune/controller/PhortuneCartCancelController.php:196
-  'Cancel Order' => null,
+  'Cancel Order' => '取消订单',
 
   // src/applications/phortune/controller/PhortuneCartCancelController.php:194
   'Cancel Order?' => null,
@@ -6955,7 +6955,7 @@ return array(
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:109
   // src/applications/phortune/storage/PhortuneCartTransaction.php:78
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:95
-  'Cancelled' => null,
+  'Cancelled' => '已取消',
 
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:232
   'Cancelled Events' => null,
@@ -6964,7 +6964,7 @@ return array(
   'Cancelled Events Only' => null,
 
   // src/applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php:168
-  'Cancelled.' => null,
+  'Cancelled.' => '已取消.',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:83
   'Cannot Reinstate Instance' => null,
@@ -7148,7 +7148,7 @@ return array(
   'Change is enormous' => null,
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:395
-  'Change primary email address?' => null,
+  'Change primary email address?' => '要修改主要邮件地址么?',
 
   // src/applications/maniphest/command/ManiphestPriorityEmailCommand.php:15
   'Change the priority of a task.' => null,
@@ -7279,13 +7279,13 @@ return array(
   'Choose "%s" Icon' => '选择 "%s" 图标',
 
   // src/applications/phortune/controller/PhortuneMerchantInvoiceCreateController.php:80
-  'Choose Account' => null,
+  'Choose Account' => '选择帐户',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:296
-  'Choose Background Color' => null,
+  'Choose Background Color' => '选择背景色',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditIconController.php:98
-  'Choose Calendar Event Icon' => null,
+  'Choose Calendar Event Icon' => '选择日历事件图标',
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:54
   'Choose Encoding' => '选择编码',
@@ -7294,10 +7294,10 @@ return array(
   'Choose Highlighting' => '选择高亮',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:304
-  'Choose Icon' => null,
+  'Choose Icon' => '选择图标',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:208
-  'Choose Icon and Color...' => null,
+  'Choose Icon and Color...' => '选择图标和颜色...',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:482
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:216
@@ -7307,23 +7307,23 @@ return array(
   'Choose Payment Method' => null,
 
   // src/applications/project/controller/PhabricatorProjectEditIconController.php:102
-  'Choose Project Icon' => null,
+  'Choose Project Icon' => '选择项目图标',
 
   // src/applications/releeph/controller/request/ReleephRequestDifferentialCreateController.php:67
   'Choose Releeph Branch' => null,
 
   // src/applications/almanac/controller/AlmanacServiceEditController.php:228
-  'Choose Service Type' => null,
+  'Choose Service Type' => '选择服务类型',
 
   // src/applications/nuance/controller/NuanceSourceCreateController.php:41
   // src/applications/nuance/controller/NuanceSourceCreateController.php:54
   'Choose Source Type' => null,
 
   // src/applications/phortune/controller/PhortuneMerchantInvoiceCreateController.php:42
-  'Choose User' => null,
+  'Choose User' => '选择用户',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:197
-  'Choose a dashboard template to start with.' => '选择一个仪表板模板',
+  'Choose a dashboard template to start with.' => '选择一个仪表盘模板',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:291
   'Choose a default priority for newly created tasks. You can review and adjust available priorities by using the %s configuration option. The default value (`90`) corresponds to the default "Needs Triage" priority.' => null,
@@ -7371,7 +7371,7 @@ return array(
   'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:615
-  'Choose the username and password used to connect to the repository hosted at:\n\n  lang=text\n  %s\n\nIf this repository does not require a username or password, you can continue to the next step.' 
+  'Choose the username and password used to connect to the repository hosted at:\n\n  lang=text\n  %s\n\nIf this repository does not require a username or password, you can continue to the next step.'
   => '选择用户名和密码用来连接远程仓库：\n\n  lang=text\n  %s\n\n如果该仓库不需要用户名或者密码，你可以继续到下一步。',
 
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:87
@@ -7530,7 +7530,7 @@ return array(
   'Close a resource.' => null,
 
   // src/applications/maniphest/command/ManiphestCloseEmailCommand.php:11
-  'Close a task.' => null,
+  'Close a task.' => '关闭一个任务.',
 
   // src/applications/help/controller/PhabricatorHelpKeyboardShortcutController.php:26
   'Close any dialog, including this one.' => null,
@@ -7731,10 +7731,10 @@ return array(
   // src/applications/auth/view/PhabricatorAuthSSHKeyTableView.php:85
   // src/applications/pholio/controller/PholioInlineController.php:162
   // src/applications/releeph/controller/request/ReleephRequestViewController.php:81
-  'Comment' => '注解',
+  'Comment' => '注释',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentHistoryController.php:78
-  'Comment History' => null,
+  'Comment History' => '注释历史',
 
   // src/applications/differential/editor/DifferentialTransactionEditor.php:1488
   'Comment at: %s:%s' => null,
@@ -7867,7 +7867,7 @@ return array(
   'Commits inherit the policies of the repository they belong to.' => null,
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:103
-  'Committed' => '提交',
+  'Committed' => '已提交',
 
   // src/applications/audit/editor/PhabricatorAuditEditor.php:687
   // src/applications/herald/adapter/HeraldAdapter.php:366
@@ -7888,7 +7888,7 @@ return array(
   // src/applications/uiexample/examples/PHUIActionHeaderExample.php:228
   // src/applications/files/controller/PhabricatorFileComposeController.php:210
   // src/applications/project/icon/PhabricatorProjectIcon.php:21
-  'Company' => null,
+  'Company' => '公司',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:486
   'Company Address' => null,
@@ -7896,13 +7896,13 @@ return array(
   // src/applications/legalpad/controller/LegalpadDocumentSignatureAddController.php:133
   // src/applications/legalpad/controller/LegalpadDocumentSignatureViewController.php:83
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:480
-  'Company Name' => null,
+  'Company Name' => '公司名',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:606
-  'Company address is required.' => null,
+  'Company address is required.' => '必须有公司地址',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:597
-  'Company name is required.' => null,
+  'Company name is required.' => '必须有公司名',
 
   // src/applications/nuance/source/NuancePhabricatorFormSourceDefinition.php:80
   'Complaint' => null,
@@ -7913,13 +7913,13 @@ return array(
   // src/applications/phortune/storage/PhortuneCartTransaction.php:82
   // src/applications/files/controller/PhabricatorFileInfoController.php:359
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:89
-  'Complete' => null,
+  'Complete' => '完成',
 
   // src/applications/drydock/blueprint/DrydockWorkingCopyBlueprintImplementation.php:80
-  'Complete.' => null,
+  'Complete.' => '完成.',
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:110
-  'Completed' => null,
+  'Completed' => '已完成',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:373
   'Completed Chunks' => null,
@@ -8098,7 +8098,7 @@ return array(
   'Configure Macro.' => null,
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:11
-  'Configure Mail.' => null,
+  'Configure Mail.' => '配置邮箱.',
 
   // src/applications/config/option/PhabricatorMailgunConfigOptions.php:11
   'Configure Mailgun integration.' => null,
@@ -8117,7 +8117,7 @@ return array(
   'Configure More Options First' => '更多选项配置',
 
   // src/applications/owners/config/PhabricatorOwnersConfigOptions.php:11
-  'Configure Owners.' => null,
+  'Configure Owners.' => '配置所有者.',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:11
   'Configure PHPMailer.' => null,
@@ -8141,7 +8141,7 @@ return array(
   'Configure Phrequent.' => null,
 
   // src/applications/project/config/PhabricatorProjectConfigOptions.php:11
-  'Configure Projects.' => null,
+  'Configure Projects.' => '配置项目.',
 
   // src/applications/config/option/PhabricatorRecaptchaConfigOptions.php:11
   'Configure Recaptcha captchas.' => null,
@@ -8189,10 +8189,10 @@ return array(
   'Configure more options before creating the repository. This will let you fine-tune settings. You can create the repository whenever you are ready.' => null,
 
   // src/applications/config/option/PhabricatorNotificationConfigOptions.php:11
-  'Configure real-time notifications.' => null,
+  'Configure real-time notifications.' => '配置实时提醒.',
 
   // src/applications/repository/config/PhabricatorRepositoryConfigOptions.php:11
-  'Configure repositories.' => '配置仓库。',
+  'Configure repositories.' => '配置仓库.',
 
   // src/applications/config/option/PhabricatorGarbageCollectorConfigOptions.php:11
   'Configure the GC for old logs, caches, etc.' => null,
@@ -8494,7 +8494,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:119
   // src/applications/dashboard/controller/PhabricatorDashboardCopyController.php:59
-  'Copy Dashboard' => '复制仪表板',
+  'Copy Dashboard' => '复制仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:385
   'Copy Panel' => null,
@@ -8587,18 +8587,18 @@ return array(
   // src/applications/phortune/controller/PhortuneAccountEditController.php:87
   // src/applications/phortune/controller/PhortuneAccountEditController.php:90
   // src/applications/people/storage/PhabricatorUserLog.php:62
-  'Create Account' => null,
+  'Create Account' => '创建帐户',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:485
-  'Create Admin Account' => null,
+  'Create Admin Account' => '创建管理帐户',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:96
-  'Create Another Subtask' => null,
+  'Create Another Subtask' => '创建另一个子任务',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:37
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:38
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientListController.php:34
-  'Create Application' => null,
+  'Create Application' => '创建应用',
 
   // src/applications/almanac/controller/AlmanacBindingEditController.php:47
   // src/applications/almanac/controller/AlmanacBindingEditController.php:48
@@ -8645,7 +8645,7 @@ return array(
   'Create Credential' => '创建证书',
 
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:14
-  'Create Custom Pages' => '创建自定义仪表板',
+  'Create Custom Pages' => '创建自定义页面',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:54
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:55
@@ -8653,10 +8653,10 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:59
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:201
   // src/applications/dashboard/controller/PhabricatorDashboardListController.php:48
-  'Create Dashboard' => '创建仪表板',
+  'Create Dashboard' => '创建仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:338
-  'Create Dashboard Panel' => '创建仪表板面板',
+  'Create Dashboard Panel' => '创建仪表盘面板',
 
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:39
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:40
@@ -8679,7 +8679,7 @@ return array(
 
   // src/applications/calendar/controller/PhabricatorCalendarController.php:21
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:74
-  'Create Event' => null,
+  'Create Event' => '创建事件',
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:88
   'Create Flag' => '创建标记',
@@ -8779,7 +8779,7 @@ return array(
   'Create New Revision' => null,
 
   // src/applications/maniphest/controller/ManiphestTaskEditController.php:554
-  'Create New Subtask' => '创建新的子任务',
+  'Create New Subtask' => '创建新子任务',
 
   // src/applications/maniphest/controller/ManiphestTaskEditController.php:557
   'Create New Task' => '创建新任务',
@@ -8794,7 +8794,7 @@ return array(
   'Create New...' => '创建新的...',
 
   // src/applications/herald/application/PhabricatorHeraldApplication.php:18
-  'Create Notification Rules' => null,
+  'Create Notification Rules' => '创建提醒规则',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:36
   'Create OAuth Application' => null,
@@ -8874,14 +8874,14 @@ return array(
   // src/applications/herald/controller/HeraldNewController.php:208
   // src/applications/herald/controller/HeraldTranscriptListController.php:14
   // src/applications/herald/controller/HeraldController.php:42
-  'Create Rule' => null,
+  'Create Rule' => '创建规则',
 
   // src/applications/almanac/controller/AlmanacServiceListController.php:27
   // src/applications/almanac/controller/AlmanacServiceEditController.php:54
   // src/applications/almanac/controller/AlmanacServiceEditController.php:55
   // src/applications/almanac/controller/AlmanacServiceEditController.php:165
   // src/applications/almanac/controller/AlmanacServiceEditController.php:226
-  'Create Service' => null,
+  'Create Service' => '创建服务',
 
   // src/applications/slowvote/controller/PhabricatorSlowvoteEditController.php:218
   'Create Slowvote' => null,
@@ -8889,7 +8889,7 @@ return array(
   // src/applications/phragment/controller/PhragmentController.php:148
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:147
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:155
-  'Create Snapshot' => null,
+  'Create Snapshot' => '创建快照',
 
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:158
   'Create Snapshot of %s' => null,
@@ -8904,7 +8904,7 @@ return array(
   'Create Space' => null,
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:49
-  'Create Standard User' => null,
+  'Create Standard User' => '创建标准用户',
 
   // src/applications/uiexample/examples/PhabricatorHovercardUIExample.php:50
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:426
@@ -8943,7 +8943,7 @@ return array(
   'Create a Phriction document.' => null,
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:146
-  'Create a Room' => null,
+  'Create a Room' => '创建一个房间',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:35
   'Create a bot/script user account, to automate interactions with other systems. These users can not use the web interface, but can use the API.' => null,
@@ -8997,28 +8997,28 @@ return array(
   'Create a new paste.' => null,
 
   // src/applications/repository/conduit/RepositoryCreateConduitAPIMethod.php:19
-  'Create a new repository.' => null,
+  'Create a new repository.' => '创建一个新仓库',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:57
   'Create a new user for use with automated scripts.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:299
-  'Create a new, empty Git repository.' => '创建一个新的Git仓库',
+  'Create a new, empty Git repository.' => '创建一个新的空Git仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:300
-  'Create a new, empty Mercurial repository.' => '创建一个新的Mercurial仓库',
+  'Create a new, empty Mercurial repository.' => '创建一个新的空Hg仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:301
-  'Create a new, empty Subversion repository.' => '创建一个新的Subersion仓库',
+  'Create a new, empty Subversion repository.' => '创建一个新的空SVN仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:48
-  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => '创建一个Phabricator本地的新仓库。配置仓库宿主介绍请查阅：%s。',
+  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => '创建一个Phabricator本地的新的空仓库。配置仓库宿主介绍，请查阅：%s。',
 
   // src/applications/phame/conduit/PhameCreatePostConduitAPIMethod.php:10
   'Create a phame post.' => null,
 
   // src/applications/project/conduit/ProjectCreateConduitAPIMethod.php:10
-  'Create a project.' => null,
+  'Create a project.' => '创建一个项目.',
 
   // src/applications/drydock/management/DrydockManagementCreateResourceWorkflow.php:9
   'Create a resource manually.' => null,
@@ -9429,14 +9429,14 @@ return array(
   'DarkConsole is a development and profiling tool built into Phabricator\'s web interface. You should leave it disabled unless you are developing or debugging Phabricator.\n\nOnce you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.\n\nDarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => null,
 
   // src/applications/dashboard/phid/PhabricatorDashboardDashboardPHIDType.php:8
-  'Dashboard' => '仪表板',
+  'Dashboard' => '仪表盘',
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:82
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:68
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:40
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:32
   // src/applications/dashboard/controller/PhabricatorDashboardHistoryController.php:32
-  'Dashboard %d' => '仪表板 %d',
+  'Dashboard %d' => '仪表盘 %d',
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardPanelTransactionEditor.php:11
@@ -9448,7 +9448,7 @@ return array(
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:6
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardTransactionEditor.php:11
-  'Dashboards' => '仪表板',
+  'Dashboards' => '仪表盘',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:159
   'Data' => null,
@@ -10138,7 +10138,7 @@ return array(
 
   // src/applications/differential/config/PhabricatorDifferentialConfigOptions.php:7
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:10
-  'Differential' => 'Diff检阅',
+  'Differential' => '差异检阅',
 
   // src/applications/herald/adapter/HeraldAdapter.php:390
   'Differential CCs' => null,
@@ -10156,7 +10156,7 @@ return array(
 
   // src/applications/differential/phid/DifferentialRevisionPHIDType.php:8
   // src/applications/differential/customfield/DifferentialRevisionIDField.php:17
-  'Differential Revision' => 'Diff检阅修订',
+  'Differential Revision' => '差异检阅修订',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:7
   // src/applications/differential/editor/DifferentialTransactionEditor.php:16
@@ -11073,7 +11073,7 @@ return array(
   'Edit Current Version' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:111
-  'Edit Dashboard' => '编辑仪表板',
+  'Edit Dashboard' => '编辑仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:65
   'Edit Dashboard "%s"' => null,
@@ -11909,7 +11909,7 @@ return array(
   'Enter the **Repository Root** for this Subversion repository. You can figure this out by running `svn info` in a working copy and looking at the value in the `Repository Root` field. It should be a URI and will usually look like these:\n\n| Example Subversion Repository Root URIs |\n| ------------------------------ |\n| `http://svn.example.org/svnroot/` |\n| `svn+ssh://svn.example.com/svnroot/` |\n| `svn://svn.example.net/svnroot/` |\n\n\nYou **MUST** specify the root of the repository, not a subdirectory. (If you want to import only part of a Subversion repository, use the //Import Only// option at the end of this workflow.)' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:493
-  'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n' 
+  'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n'
   => '输入URI来克隆Git仓库。它看起来应该像以下这些例子：\n\n| Git远程URIs例子 |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:504
@@ -13952,7 +13952,7 @@ return array(
   'Import a Subversion repository.' => '导入一个Subversion仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:56
-  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' 
+  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.'
   => '导入一个第三方仓库，比如 GitHub，Bitbucket或者已有的服务。Phabricator将会从该仓库读取信息，但它并不管理该仓库。该仓库的master版本会继续留在它之前的地方',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:54
@@ -14180,7 +14180,7 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:134
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:73
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:76
-  'Install Dashboard' => '安装仪表板',
+  'Install Dashboard' => '安装仪表盘',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:76
   'Install Instructions' => null,
@@ -15839,7 +15839,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:60
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:78
-  'Manage Dashboard' => '管理仪表板',
+  'Manage Dashboard' => '管理仪表盘',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:248
   'Manage Document' => null,
@@ -16853,7 +16853,7 @@ return array(
   'New Rule for' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:217
-  'New Simple Dashboard' => '新建简易仪表板',
+  'New Simple Dashboard' => '新建简易仪表盘',
 
   // src/applications/harbormaster/controller/HarbormasterStepEditController.php:161
   'New Step: %s' => null,
@@ -17792,7 +17792,7 @@ return array(
   'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.\n\nIf you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.\n\nThis sort of workflow is very unusual. Very few installs should need to change this option.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditUpdateController.php:54
-  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' 
+  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.'
   => null,
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:94
@@ -19487,7 +19487,7 @@ return array(
   'Phabricator no longer supports global customization of monospaced fonts.' => null,
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:52
-  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.' 
+  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.'
   => 'Phabricator通常在大屏幕上并排显示diffs，并且在小屏幕时自动切换到一个统一的视图（像手机）。如果你更喜欢大屏幕也用统一的diffs，你可以选择为默认',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:260
@@ -23574,7 +23574,7 @@ return array(
   'Should "Accepted" revisions remain "Accepted" after updates?' => null,
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:53
-  'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.' 
+  'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.'
   => '讨论组是否只为更新或者通知发送邮件，这个全局设置可以被每个讨论组设置所覆写。',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:41
@@ -24668,10 +24668,10 @@ return array(
   'Start typing to autocomplete on commit title, or give a Phabricator commit identifier like rFOO1234.' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:186
-  'Start with a blank canvas.' => '创建一个空的仪表板',
+  'Start with a blank canvas.' => '创建一个空的仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:191
-  'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => '创建一个简易仪表板，带有欢迎信息、最近事件回馈和一些起始面板',
+  'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => '创建一个简易仪表盘，带有欢迎信息、最近事件回馈和一些起始面板',
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:106
   // src/applications/daemon/management/PhabricatorDaemonManagementStatusWorkflow.php:52
@@ -25407,7 +25407,7 @@ return array(
   'Tasks To Merge' => '要合并的任务',
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
-  'Tasks and Bugs' => '任务与Bugs',
+  'Tasks and Bugs' => '任务与缺陷',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:217
   // src/applications/project/icon/PhabricatorProjectIcon.php:11
@@ -28987,7 +28987,7 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:131
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:73
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:77
-  'Uninstall Dashboard' => '卸载仪表板',
+  'Uninstall Dashboard' => '卸载仪表盘',
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:254
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:36
@@ -30494,7 +30494,7 @@ return array(
   'View Child Fragments' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:105
-  'View Dashboard' => '查看仪表板',
+  'View Dashboard' => '查看仪表盘',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:139
   'View File' => '查看文件',
@@ -32461,7 +32461,7 @@ return array(
   '`%s` may only be called on host artifacts.' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:38
-  'accepted' => '可接受',
+  'accepted' => '已接受',
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:41
   'added CCs to' => null,
@@ -32488,7 +32488,7 @@ return array(
   'assigned' => '指派给',
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:148
-  'bookmark' => null,
+  'bookmark' => '书签',
 
   // src/applications/herald/controller/HeraldRuleController.php:523
   'bookmark (hg)' => null,
@@ -32497,7 +32497,7 @@ return array(
   'bookmark:' => null,
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:141
-  'branch' => null,
+  'branch' => '分支',
 
   // src/applications/herald/controller/HeraldRuleController.php:519
   'branch (git/hg)' => null,
@@ -32530,7 +32530,7 @@ return array(
   'change rewrites ref' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:40
-  'closed' => null,
+  'closed' => '已关闭',
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:36
   'commented on' => null,
@@ -32678,7 +32678,7 @@ return array(
   'members of projects' => '项目成员',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:190
-  'message' => null,
+  'message' => '消息',
 
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:105
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:229
@@ -32690,7 +32690,7 @@ return array(
   'null' => null,
 
   // src/applications/herald/config/HeraldRepetitionPolicyConfig.php:16
-  'only the first time' => null,
+  'only the first time' => '仅第一次',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:285
   'ou=People, dc=example, dc=com' => null,
@@ -32737,22 +32737,22 @@ return array(
   'sudo exited with a zero exit code, but emitted output consistent with failure under OSX.' => null,
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:144
-  'tag' => null,
+  'tag' => '标签',
 
   // src/applications/herald/controller/HeraldRuleController.php:521
   'tag (git)' => null,
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:145
-  'tag:' => null,
+  'tag:' => '标签:',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:181
-  'template' => null,
+  'template' => '模板',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:76
   'this is a pasta' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:44
-  'updated' => null,
+  'updated' => '更新过的',
 
   // src/applications/auth/factor/__tests__/PhabricatorAuthInviteTestCase.php:124
   'user=%s, should_verify=%s' => null,
@@ -32761,13 +32761,13 @@ return array(
   'user=%s, verified=%s, primary=%s, should_verify=%s' => null,
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalUserDatasource.php:28
-  'username' => null,
+  'username' => '用户名',
 
   // src/applications/policy/rule/PhabricatorUsersPolicyRule.php:6
   'users' => '用户',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:78
-  'what did you expect?' => null,
+  'what did you expect?' => '你在期望什么?',
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:11
   'when the moon' => '当月亮呈现',
