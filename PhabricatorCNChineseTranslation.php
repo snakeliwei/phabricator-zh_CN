@@ -26,36 +26,36 @@ return array(
   '"%s"' => null,
 
   // src/applications/auth/view/PhabricatorAuthAccountView.php:54
-  '"%s" Account' => null,
+  '"%s" Account' => '"%s" 帐户',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:93
-  '"%s" Disabled' => null,
+  '"%s" Disabled' => '"%s" 禁用的',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:94
-  '"%s" Disabled in Development' => null,
+  '"%s" Disabled in Development' => '"%s" 在开发环境禁用',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:73
-  '"%s" Enabled' => null,
+  '"%s" Enabled' => '"%s" 启用的',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:74
-  '"%s" Enabled in Production' => null,
+  '"%s" Enabled in Production' => '"%s" 在生产环境启用',
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:43
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:94
-  '"%s" Snapshot' => null,
+  '"%s" Snapshot' => '"%s" 快照',
 
   // src/applications/people/storage/PhabricatorExternalAccount.php:127
-  '"%s" User' => null,
+  '"%s" User' => '"%s" 用户',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:900
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:913
   '"%s" date can not be parsed.' => '"%s" 日期不能被解析.',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:81
-  '"%s" is currently disabled, but should probably be enabled.' => null,
+  '"%s" is currently disabled, but should probably be enabled.' => '"%s" 当前被禁用, 它应当被启用.',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:61
-  '"%s" is currently enabled, but should probably be disabled.' => null,
+  '"%s" is currently enabled, but should probably be disabled.' => '"%s" 当前被启用, 它应当被禁用.',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:921
   '"%s" must be a date before "%s".' => null,
@@ -32547,26 +32547,26 @@ return array(
   'created' => '已创建',
 
   // src/applications/repository/storage/PhabricatorRepositoryPushLog.php:64
-  'dangerous change' => null,
+  'dangerous change' => '危险变更',
 
   // src/applications/phriction/controller/PhrictionEditController.php:95
-  'discard this draft' => null,
+  'discard this draft' => '放弃这个草案',
 
   // src/applications/herald/adapter/HeraldAdapter.php:422
-  'do not include' => null,
+  'do not include' => '不包含',
 
   // src/applications/herald/adapter/HeraldAdapter.php:413
-  'does not contain' => null,
+  'does not contain' => '不包括',
 
   // src/applications/herald/adapter/HeraldAdapter.php:429
-  'does not exist' => null,
+  'does not exist' => '不存在',
 
   // src/applications/herald/adapter/HeraldAdapter.php:427
-  'does not match:' => null,
+  'does not match:' => '不匹配:',
 
   // src/applications/search/management/PhabricatorSearchManagementInitWorkflow.php:26
   // src/applications/search/management/PhabricatorSearchManagementInitWorkflow.php:35
-  'done.' => null,
+  'done.' => '完成.',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:179
   'emails' => null,
@@ -32740,7 +32740,7 @@ return array(
   'tag' => '标签',
 
   // src/applications/herald/controller/HeraldRuleController.php:521
-  'tag (git)' => null,
+  'tag (git)' => '标签 (git)',
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:145
   'tag:' => '标签:',
