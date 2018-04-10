@@ -21181,7 +21181,7 @@ return array(
   'Receiving email address' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:241
-  'Recent Activity' => '最近活动',
+  'Recent Activity' => '近期活动',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:293
   'Recent Charges' => null,
@@ -21200,7 +21200,7 @@ return array(
   'Recent Subscriptions' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:252
-  'Recent Tasks' => '最近的任务',
+  'Recent Tasks' => '近期任务',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:629
   'Recently Closed' => null,
@@ -32579,16 +32579,16 @@ return array(
 
   // src/applications/config/view/PhabricatorSetupIssueView.php:72
   // src/applications/config/view/PhabricatorSetupIssueView.php:73
-  'extname' => null,
+  'extname' => '扩展名',
 
   // src/applications/uiexample/examples/PHUIIconExample.php:37
   'fa-tag %s' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:291
-  'firstname, lastname' => null,
+  'firstname, lastname' => '名, 姓',
 
   // src/applications/repository/engine/PhabricatorRepositoryPullEngine.php:339
-  'git fetch failed with error #%d:\nstdout:%s\n\nstderr:%s\n' => null,
+  'git fetch failed with error #%d:\nstdout:%s\n\nstderr:%s\n' => 'git抓取失败出错 #%d:\nstdout:%s\n\nstderr:%s\n',
 
   // src/applications/differential/customfield/DifferentialGitSVNIDField.php:20
   'git-svn-id' => null,
